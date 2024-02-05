@@ -179,8 +179,6 @@ descriptionContainer.appendChild(paragraphElement);
  * Skills used: spread operator, destructuring, template literals, sort 
  */
 
-const { name, description: desc, pledged: pl, goal, backers: bkrs, img } = GAMES_JSON[0];
-
 
 const firstGameContainer = document.getElementById("first-game");
 const secondGameContainer = document.getElementById("second-game");
